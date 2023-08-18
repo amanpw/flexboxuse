@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alert bar </title>
+    <style>
+      body{
+        background-color: antiquewhite;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+          align-items: center;
+      }
+      .alert{
+        background-color: rgb(235, 211, 215);
+        height: 50px;
+        width: 100%;
+        max-width: 1300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-left: 5px solid red;
+        border-radius: 10px;
+        color: red;
+        position: fixed;
+        top: 10px;
+        padding: 0px 20px;
+        
+        
+      }
+      i{
+        font-size: 30px;
+      }
+      p{
+        font-size: 18px ;
+      }
+
+     
+      
+    </style>
+</head>
+<body>
+    <div class="alert">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+     <p> Warning!! This Action Is Not Allowed. </p>
+     <i class="fa-solid fa-xmark"></i>
+    </div>
+</body>
+</html>

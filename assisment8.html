@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avtars create project</title>
+    <style>
+        body{
+            background-color: rgb(19, 13, 13);
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            align-items: center;
+            justify-content: center;
+            
+            
+
+        }
+        .container{
+            background-color: rgb(15, 15, 11);
+            width: 100%;
+            
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            position: absolute;
+            border: 10px solid white;
+           margin-left: 400px;
+
+        }
+        .img-4{
+            z-index: 1;
+        }
+        .img-3{
+            margin-right: 320px;
+            z-index: 2;
+        }
+        .img-2{
+            margin-right: 640px;
+            z-index: 3;
+        }
+        .img-1{
+            margin-right: 960px;
+            z-index: 4;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img img-1" src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg" alt="img">
+        <img class="img img-2" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl" alt="aman">
+        <img class="img img-3" src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&w=256&q=75" alt="syam">
+        <img class="img img-4" src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&w=640&q=75" alt="aman">
+    
+    </div>
+</body>
+</html>
